@@ -1,0 +1,15 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#python{
+	width: 500px;
+	height: 500px;
+	border: 2px solid red;
+}
+.output{
+	width: 500px;
+	height: 500px;
+	border: 2px solid green;
+}

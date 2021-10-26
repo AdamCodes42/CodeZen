@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" style="filter: invert(100%);" sizes="32x32" href="./images/favicon/favicon-1.png">
+    <link rel="stylesheet" href="./style/compiler.css">
+    <title>Compiler</title>
+</head>
+<body>
+    <textarea class="code" id="python"></textarea>
+     <div class="output">
+          <!--  <button class="print" onclick="printOutput()">Save-Output</button> -->
+
+          <iframe
+            src=""
+            id="virtual-iframe"
+            class="virtual-iframe"
+            name="virtual-iframe"
+            frameborder="0"
+          ></iframe>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/compiler.js"></script>
+</body>
+</html>
